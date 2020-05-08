@@ -1,0 +1,1 @@
+python2 manage.py runserver serwer2092649.home.pl
