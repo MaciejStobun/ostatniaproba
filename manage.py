@@ -3,12 +3,6 @@ import os
 import sys
 import mysql.connector
 
-mydb = mysql.connector.connect(
-  host="https://serwer2092649.home.pl/sql:3306",
-  user="32853696_app",
-  passwd="_sQ98AM",
-  database="32853696_app",
-)
 
 
 
