@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d100557-35d5-4fa6-bb8a-0342f6d1df12" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/facebook/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/facebook/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phishing/static/static/.keep" beforeDir="false" afterPath="$PROJECT_DIR$/static/.keep" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
