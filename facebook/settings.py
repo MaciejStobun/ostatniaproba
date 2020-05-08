@@ -101,13 +101,12 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.8/howto/static-files/
-import mysql.connector
-mydatabase =  mysql.connector.connect(
-  host="https://serwer2092649.home.pl/sql",
-  user="32853696_app",
-  passwd="_sQ98AM",
-  database="32853696_app"
-)
+import dj_database_url
+
+db_from_env = dj_database_url.config(conn_max_age=500)
+
+DATABASES['default'].update(db_from_env)
+
 
 
 STATIC_URL = '/static/'
